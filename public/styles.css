@@ -1,0 +1,42 @@
+html, body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+ul{
+    width:310px;
+    padding: 0 150px;
+}
+li{
+    float:left;
+    height: 50px;
+    margin:0 10px 10px 0;
+    width:105px;
+}
+li:nth-child(even){
+    margin-right:0;
+}
+
+footer {
+    display: flex;
+    justify-content: left;
+    margin: 10px 200px;
+}
+
+.back-link {
+    display: flex;
+    justify-content: left;
+    margin: 10px 200px;
+}
+
+.home-link {
+    display: flex;
+    justify-content: left;
+    margin: 10px 150px;
+}
+
+.title {
+    margin: 200px 0 20px 70px;
+}
